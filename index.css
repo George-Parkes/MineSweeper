@@ -1,0 +1,52 @@
+body {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+button  {
+  background-color: rgb(182, 182, 182);
+  border: 1px solid rgba(129, 129, 129, 0.8);
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  font-family: monospace;
+  float: left;
+}
+
+button:active {
+    background-color: rgb(73, 73, 73);
+    box-shadow: 
+      inset 0px 0px 0px 1px rgba(0,0,0,0.2), 
+
+}
+
+button:focus {
+    outline: none !important;
+}
+
+button:disabled,
+button[disabled]{
+  color: rgba(0, 0, 0, 0.4);
+}
+
+#game-board {
+  margin:0 auto;
+  display: inline-block;
+}
+
+.shadow {
+  box-shadow: 
+  inset 0px 1px 0px 2px rgba(0,0,0,0.1);
+  border: 0px solid rgba(129, 129, 129, 0.5);
+  background-color: rgb(156, 156, 156);
+  color: black !important;
+}
+
+.bomb {
+  box-shadow: 
+  inset 0px 1px 0px 2px rgba(0,0,0,0.1);
+  border: 0px solid rgba(129, 129, 129, 0.5);
+  background-color: rgb(170, 46, 46);
+  color: black !important;
+}
